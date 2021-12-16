@@ -20,3 +20,15 @@ function isLeapYear(year) {
 }
 console.log(isLeapYear(2018))
 
+//algo 3 = 
+const theaterSieges= () => {  
+    const salle = []
+    for(let i = 1; i < 27; i++){
+        for(let j=1; j < 101; j++){
+        salle.push(`${i} - ${j}`)
+        }
+    }
+    return salle
+}
+
+console.log(theaterSieges())
